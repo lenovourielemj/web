@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with FoodHut landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Zintro Alum</title>
+   
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+    <!-- Bootstrap + Estilos de principals -->
+	<link rel="stylesheet" href="assets/css/foodhut.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Barra de navegacion -->
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" style="font-size: 22px">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="font-size: 22px">Nosotros</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog" style="font-size: 22px">Catálogo<span class="sr-only">(current)</span></a>
+                </li>
+
+                <!--
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallary">Catálogo</a>
+                </li>
+                
+                 <li class="nav-item">
+                    <a class="nav-link" href="#book-table">Contacto</a>
+                </li>
+                -->
+               
+            </ul>
+            <a class="navbar-brand m-auto" href="#">
+                <img src="assets/imgs/img.png" class="brand-img" alt="" >
+                <span class="brand-txt">Aceros Car</span>
+            </a>
+            <ul class="navbar-nav">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#testmonial" style="font-size: 22px">Descargar catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="font-size: 22px">Contactanos</a>
+                </li>
+               
+               <!--
+                <li class="nav-item">
+                    
+                    <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
+
+                </li>
+            -->
+            </ul>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="home" class="header">
+        <div class="overlay text-white text-center">
+            <h1 class="display-2 font-weight-bold my-3">ACEROS CAR</h1><br>
+            <h2 class="display-4 mb-5">¡Nosotros te cubrimos!</h2>
+          <!--
+          <a class="btn btn-lg btn-primary" href="#gallary">View Our gallary</a>
+          --> 
+        
+        </div>
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" id="about"data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">Somos Aceros Car</h2>
+                        <p style="font-size: 19px;">Al fin, una empresa que soluciona tus problemas de techo con los mejores materiales.
+                        <p style="font-size: 19px;">Ofrecemos láminas galvanizadas de la más alta calidad, en una gran variedad de calibres, ideales para cualquier proyecto.</p>
+                        <p style="font-size: 19px;">También contamos con montenes resistentes y duraderos, además de otros productos que garantizan un techo firme, seguro y de larga vida útil.</p>
+                        <p style="font-size: 19px;">Porque sabemos que cuando se trata de tu techo, no hay espacio para improvisar: solo <b>calidad, resistencia y confianza.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  gallary Section  
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+        <h2 class="section-title">OUR MENU</h2>
+    </div>
+    <div class="gallary row">
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-9.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-10.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-11.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+    </div>
+    -->
+
+    <!-- book a table Section  
+    <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
+        <div class="">
+            <h2 class="section-title mb-5">BOOK A TABLE</h2>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="email" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="number" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="NUMBER OF GUESTS" max="20" min="0">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="time" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="date" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
+                </div>
+            </div>
+            <a href="#" class="btn btn-lg btn-primary" id="rounded-btn">FIND TABLE</a>
+        </div>
+    </div>
+    -->
+
+    <!-- CATALOGO  -->
+     
+    <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn catalogo_img ">
+     <h2 class="section-title py-5"><br><br> <b>CATÁLOGO</b></h2>
+            <div class="row justify-content-center">
+            <div class="col-sm-7 col-md-9 mb-5">
+                <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist"> 
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#laminas" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 17px;"><b>Laminas</b></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#perfiles" role="tab" aria-controls="pills-profile" aria-selected="false" style="font-size: 17px;"><b>Perfiles</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#montenes" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 17px;"><b>Montenes</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#galvateja" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 17px;"><b>Gavateja</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#plastiteja" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 17px;"><b>Plastiteja</b></a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pijas" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 17px;"><b>Pijas</b></a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#canoas" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 17px;"><b>Canoas</b></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#PTR" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 17px;"><b>PTR</b></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        <div class="tab-content" id="pills-tabContent" >
+
+            <!-- --------------    LAMINAS    ------------- -->
+
+            <div class="tab-pane fade show active" id="laminas" role="tabpanel" aria-labelledby="pills-home-tab">
+            <!-- SWIPER INICIO -->
+             <!--<div>Laminas</div> -->
+            <div class="swiper catalogoSwiper">
+                <div class="swiper-wrapper">
+                    <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/laminas/img_acanalada.png" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                <h4 class="pt20 pb20"><b>Zintro Alum Acanalada</b><br><em style="font-size: 20px;">Calibre 26, 28 y 32.</em></h4>
+                                <p class="text-white">Medidas: <br>
+
+                                                    2.44x80 &nbsp; &nbsp; 4.88x80<br>
+                                                    3.05x80 &nbsp; &nbsp; 5.50x80<br>
+                                                    3.66x80 &nbsp; &nbsp; 6.10x80<br>
+                                                    4.27x80 &nbsp; &nbsp; 7.32x80<br><br>
+                                                   <em style="font-size: 15px;"> La medida es de metros por centímetros.</em>
+                                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+            <!-- SLIDE 2 -->
+            <div class="swiper-slide">
+                <div class="card bg-transparent border my-3 my-md-0">
+                    <img src="assets/imgs/laminas/img_ondulada.png" class="rounded-0 card-img-top mg-responsive">
+                    <div class="card-body">
+                        
+                       <h4 class="pt20 pb20"><b>Zintro Alum Ondulada</b><br><em style="font-size: 20px;">Calibre 26, 28 y 32.</em></h4>
+                                <p class="text-white">Medidas: <br>
+
+                                                    2.44x80 <br>
+                                                    3.05x80 <br>
+                                                    3.66x80 <br><br>
+                                                    
+                                                   <em style="font-size: 15px;"> La medida es de metros por centímetros. </em>
+                                </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="swiper-slide">
+                <div class="card bg-transparent border my-3 my-md-0">
+                    <img src="assets/imgs/laminas/img_ondulada.png" class="rounded-0 card-img-top mg-responsive">
+                    <div class="card-body">
+                        
+                       <h4 class="pt20 pb20"><b>Zintro Alum Pendiente</b><br><em style="font-size: 20px;">Calibre 26, 28, 30, 32.</em></h4>
+                                <p class="text-white">Medidas: <br>
+
+                                                    2.44x80 &nbsp; &nbsp; 4.88x80<br>
+                                                    3.05x80 &nbsp; &nbsp; 5.50x80<br>
+                                                    3.66x80 &nbsp; &nbsp; 6.10x80<br>
+                                                    4.27x80 &nbsp; &nbsp; 7.32x80<br><br>
+                                                   <em style="font-size: 15px;"> La medida es de metros por centímetros.</em>
+                                </p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="swiper-slide">
+                <div class="card bg-transparent border my-3 my-md-0">
+                    <img src="assets/imgs/blog-3.jpg" class="rounded-0 card-img-top mg-responsive">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                        <h4 class="pt20 pb20">Dicta Deserunt</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            <!-- BOTONES DE NAVEGACIÓN -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    <!-- SWIPER FIN -->
+            </div>
+
+            <!-- --------------    Perfiles    ------------- -->
+
+            <div class="tab-pane fade" id="perfiles" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <!-- SWIPER INICIO -->
+                <div class="swiper catalogoSwiper">
+                    <div class="swiper-wrapper">
+                <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/perfiles/ZR200-c20.jpg" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                <h4 class="pt20 pb20"><b>Perfil ZR-200</b><br><em style="font-size: 20px;">Calibre 20</em></h4>
+                                <p class="text-white" style="font-size: 18px;">Medida:&nbsp;&nbsp;&nbsp;2" x 1"
+                                                   <!--<em style="font-size: 15px;"> La medida es de .</em>-->
+                                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+            <!-- SLIDE 2 -->
+            <div class="swiper-slide">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/perfiles/ZR300-c20.jpg" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                <h4 class="pt20 pb20"><b>Perfil ZR-300</b><br><em style="font-size: 20px;">Calibre 20</em></h4>
+                                <p class="text-white" style="font-size: 18px;">Medida: &nbsp;&nbsp;&nbsp;3" x 1 ½"
+                                                    
+                                                   <!--<em style="font-size: 15px;"> La medida es de .</em>-->
+                                                    
+                                </p>
+                            </div>
+                        </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="swiper-slide">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/perfiles/ZR400-c20.jpg" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                <h4 class="pt20 pb20"><b>Perfil ZR-400</b><br><em style="font-size: 20px;">Calibre 20</em></h4>
+                                <p class="text-white" style="font-size: 18px;">Medida: &nbsp;&nbsp;&nbsp;4" x 1 ½"
+                                                    
+                                                   <!--<em style="font-size: 15px;"> La medida es de .</em>-->
+                                                    
+                                </p>
+                            </div>
+                        </div>
+            </div>
+
+             <div class="swiper-slide">
+                <div class="card bg-transparent border my-3 my-md-0">
+                    <img src="assets/imgs/blog-3.jpg" class="rounded-0 card-img-top mg-responsive">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                        <h4 class="pt20 pb20">Dicta Deserunt</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BOTONES DE NAVEGACIÓN -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!-- SWIPER FIN -->
+            </div>
+
+            <!-- --------------    Montenes    ------------- -->
+            <div class="tab-pane fade" id="montenes" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <!-- SWIPER INICIO -->
+                <div class="swiper catalogoSwiper">
+                    <div class="swiper-wrapper">
+            <!-- SLIDE 1 -->
+            <div class="swiper-slide">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/montenes/monten_3x1½.jpg" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                <h4 class="pt20 pb20"><b>Monten</b><br><em style="font-size: 20px;">Calibre 14</em></h4>
+                                <p class="text-white" style="font-size: 18px;">Medida: &nbsp;&nbsp;&nbsp;3" x 1 ½ x 6"                                               
+                                                   <!--<em style="font-size: 15px;"> La medida es de .</em>-->                               
+                                </p>
+                            </div>
+                        </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="swiper-slide">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/montenes/monten_4x2.jpg" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                <h4 class="pt20 pb20"><b>Monten</b><br><em style="font-size: 20px;">Calibre 14</em></h4>
+                                <p class="text-white" style="font-size: 18px;">Medida: &nbsp;&nbsp;&nbsp;4" x 2" x 6"                                               
+                                                   <!--<em style="font-size: 15px;"> La medida es de .</em>-->                               
+                                </p>
+                            </div>
+                        </div>
+            </div>
+
+            <!-- SLIDE 3 -->
+            <div class="swiper-slide">
+                <div class="card bg-transparent border my-3 my-md-0">
+                    <img src="assets/imgs/blog-3.jpg" class="rounded-0 card-img-top mg-responsive">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                        <h4 class="pt20 pb20">Dicta Deserunt</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+
+             <div class="swiper-slide">
+                <div class="card bg-transparent border my-3 my-md-0">
+                    <img src="assets/imgs/blog-3.jpg" class="rounded-0 card-img-top mg-responsive">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                        <h4 class="pt20 pb20">Dicta Deserunt</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+             </div>
+
+          </div>
+
+                <!-- BOTONES DE NAVEGACIÓN -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+             <!-- SWIPER FIN -->
+            </div>
+
+             <!-- --------------    Galvateja    ------------- -->
+            <div class="tab-pane fade" id="galvateja" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <!-- SWIPER INICIO -->
+                <div class="swiper catalogoSwiper">
+                    <div class="swiper-wrapper">
+                     <!-- SLIDE 1 -->
+                        <div class="swiper-slide">
+                            <div class="card bg-transparent border my-3 my-md-0">
+                                <img src="assets/imgs/montenes/monten_3x1½.jpg" class="rounded-0 card-img-top mg-responsive">
+                                <div class="card-body">
+                                    <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                    <h4 class="pt20 pb20"><b>Monten</b><br><em style="font-size: 20px;">Calibre 14</em></h4>
+                                    <p class="text-white" style="font-size: 18px;">Medida: &nbsp;&nbsp;&nbsp;3" x 1 ½ x 6"                                               
+                                                    <!--<em style="font-size: 15px;"> La medida es de .</em>-->                               
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 2 -->
+                        <div class="swiper-slide">
+                            <div class="card bg-transparent border my-3 my-md-0">
+                                <img src="assets/imgs/montenes/monten_4x2.jpg" class="rounded-0 card-img-top mg-responsive">
+                                <div class="card-body">
+                                    <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                    <h4 class="pt20 pb20"><b>Monten</b><br><em style="font-size: 20px;">Calibre 14</em></h4>
+                                    <p class="text-white" style="font-size: 18px;">Medida: &nbsp;&nbsp;&nbsp;4" x 2" x 6"                                               
+                                                    <!--<em style="font-size: 15px;"> La medida es de .</em>-->                               
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 3 -->
+                        <div class="swiper-slide">
+                            <div class="card bg-transparent border my-3 my-md-0">
+                                <img src="assets/imgs/blog-3.jpg" class="rounded-0 card-img-top mg-responsive">
+                                <div class="card-body">
+                                    <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                                    <h4 class="pt20 pb20">Dicta Deserunt</h4>
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card bg-transparent border my-3 my-md-0">
+                                <img src="assets/imgs/blog-3.jpg" class="rounded-0 card-img-top mg-responsive">
+                                <div class="card-body">
+                                    <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                                    <h4 class="pt20 pb20">Dicta Deserunt</h4>
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BOTONES DE NAVEGACIÓN -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+              </div>
+              <!-- SWIPER FIN -->
+             </div>
+             
+             <!-- --------------    Plastiteja    ------------- -->
+            <div class="tab-pane fade" id="plastiteja" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <!-- SWIPER INICIO -->
+                <div class="swiper catalogoSwiper">
+                    <div class="swiper-wrapper">
+                     <!-- SLIDE 1 -->
+                        <div class="swiper-slide">
+                            <div class="card bg-transparent border my-3 my-md-0">
+                                <img src="assets/imgs/plastitejas/plasti.png" class="rounded-0 card-img-top mg-responsive">
+                                <div class="card-body">
+                                    <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                    <h4 class="pt20 pb20"><b>Canal Tipo Teja</b><br><em style="font-size: 20px;">Colores</em></h4>
+                                    <p class="text-white" style="font-size: 18px;">
+                                        
+                                        Medida Estandar: <br>
+                                        
+                                        7 mtrs&nbsp;&nbsp;&nbsp;&nbsp;4 mtrs<br>
+                                        &nbsp;&nbsp;6 mtrs&nbsp;&nbsp;&nbsp;&nbsp;3.6 mtrs<br>
+                                        5 mtrs&nbsp;&nbsp;&nbsp;&nbsp;3 mtrs<br>
+                                        4.6 mtrs&nbsp;&nbsp;&nbsp;&nbsp;2.5 mtrs<br>
+                                        
+                                        <ul style="list-style-type: none; padding-left: 0;">
+                                        <li><span style="color: red; font-size: 28px;">•</span> <span style="font-size: 16px; color: white;">Ancho de 1m y grosor de 3 a 5mm.</span></li>
+                                        <li><span style="color: red; font-size: 28px;">•</span> <span style="font-size: 16px; color: white;">Medidas personalizadas bajo pedido.</span></li>
+                                        </ul>                            
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SLIDE 2 -->
+                        <div class="swiper-slide">
+                            <div class="card bg-transparent border my-3 my-md-0">
+                                <img src="assets/imgs/plastitejas/terracota.png" class="rounded-0 card-img-top mg-responsive">
+                                <div class="card-body">
+                                    <!--<h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$5</a></h1>-->
+                                    <h4 class="pt20 pb20"><b>Canal Estructural</b><br><em style="font-size: 20px;">Colores</em></h4>
+                                    <p class="text-white" style="font-size: 18px;">
+                                        
+                                        Medida Estandar: <br>
+                                        
+                                        7 mtrs&nbsp;&nbsp;&nbsp;&nbsp;4 mtrs<br>
+                                        &nbsp;&nbsp;6 mtrs&nbsp;&nbsp;&nbsp;&nbsp;3.6 mtrs<br>
+                                        5 mtrs&nbsp;&nbsp;&nbsp;&nbsp;3 mtrs<br>
+                                        4.6 mtrs&nbsp;&nbsp;&nbsp;&nbsp;2.5 mtrs<br>
+                                        
+                                        <ul style="list-style-type: none; padding-left: 0;">
+                                        <li><span style="color: red; font-size: 28px;">•</span> <span style="font-size: 16px; color: white;">Ancho de 1m y grosor de 3 a 5mm.</span></li>
+                                        <li><span style="color: red; font-size: 28px;">•</span> <span style="font-size: 16px; color: white;">Medidas personalizadas bajo pedido.</span></li>
+                                        </ul>                            
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+
+                    </div>
+                    <!-- BOTONES DE NAVEGACIÓN -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+              </div>
+              <!-- SWIPER FIN -->
+             </div>
+
+            
+        </div>
+    </div>
+
+    <!-- Contacto  -->
+    <!--<div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+        <h2 class="section-title my-1 text-center">Contáctanos</h2>
+       <div class="row mt-3 mb-5">
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">John Doe</h3>
+                    <h6 class="testmonial-subtitle">Web Designer</h6>
+                    <div class="testmonial-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nobis eligendi, quaerat accusamus ipsum sequi dignissimos consequuntur blanditiis natus. Aperiam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Steve Thomas</h3>
+                    <h6 class="testmonial-subtitle">UX/UI Designer</h6>
+                    <div class="testmonial-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum minus obcaecati cum eligendi perferendis magni dolorum ipsum magnam, sunt reiciendis natus. Aperiam!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Miranda Joy</h3>
+                    <h6 class="testmonial-subtitle">Graphic Designer</h6>
+                    <div class="testmonial-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, nam. Earum nobis eligendi, dignissimos consequuntur blanditiis natus. Aperiam!</p>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <!-- CONTACT Section  -->
+    <div id="contact" class="container-fluid wow fadeIn bg-dark text-light text-center py-5">
+    
+    <h5 class="section-title my-3">Contacto</h5>
+
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <p class="px-3 mb-4" style="font-size: 18px;">
+                Ponte en contacto con nosotros a través de nuestras opciones de contacto.
+            </p>
+        </div>
+
+        <div class="w-100 border-top mb-4"></div>
+
+        <!-- CORREO -->
+        <div class="col-12 col-md-4 mb-4 text-center">
+            <h3>CORREO</h3><br>
+            <img src="assets/imgs/icon_mail.png" width="28px" height="20px" style="opacity: 0.7; transition: 0.3s ease;">
+            &nbsp;
+            <a href="mailto:aceroscar@gmail.com" 
+            style="display: inline-flex; align-items: center; gap: 8px;
+                    color: rgba(255, 255, 255, 0.7); 
+                    font-size: 20px; 
+                    text-decoration: none;
+                    border-bottom: 1px dashed rgba(255,255,255,0.3);
+                    padding-bottom: 2px;
+                    transition: 0.3s ease;">
+                
+                <em> aceroscar@gmail.com</em>
+                
+            </a><img src="assets/imgs/mano.png" width="35px" height="35px">
+        </div>
+
+        <!-- TELÉFONO -->
+            <div class="col-12 col-md-4 mb-4 text-center">
+                <h3>TELÉFONO</h3><br>
+                <img src="assets/imgs/icon_whats.png" width="38px" height="38px" style="opacity: 0.7; transition: 0.3s ease;">
+                <a href="https://wa.me/5564394946" target="_blank" 
+                style="display: inline-flex; align-items: center; gap: 8px;
+                        color: rgba(255, 255, 255, 0.7); 
+                        font-size: 22px; 
+                        text-decoration: none;
+                        border-bottom: 1px dashed rgba(255,255,255,0.3);
+                        padding-bottom: 2px;
+                        transition: 0.3s ease;">
+                    <em> 749 103 4383</em>
+                </a>
+                <img src="assets/imgs/mano.png" width="35px" height="35px">
+
+                <h5> <br>O al:</h5>
+
+                <img src="assets/imgs/icon_whats.png" width="38px" height="38px" style="opacity: 0.7; transition: 0.3s ease;">
+                <a href="https://wa.me/5564394946" target="_blank" 
+                style="display: inline-flex; align-items: center; gap: 8px;
+                        color: rgba(255, 255, 255, 0.7); 
+                        font-size: 20px; 
+                        text-decoration: none;
+                        border-bottom: 1px dashed rgba(255,255,255,0.3);
+                        padding-bottom: 2px;
+                        transition: 0.3s ease;">
+                   <em> 229 144 4235 </em>
+                </a>
+                <img src="assets/imgs/mano.png" width="35px" height="35px">
+
+
+            </div>
+
+
+        <!-- FACEBOOK -->
+        <div class="col-12 col-md-4 mb-4 text-center">
+                <h3>FACEBOOK</h3>
+                <br>
+                <img src="assets/imgs/icon_facebook.png" width="39px" height="32px" style="opacity: 0.7; transition: 0.3s ease;">
+                <a href="https://www.facebook.com/aceroscar" target="_blank" 
+                style="display: inline-flex; align-items: center; gap: 8px;
+                        color: rgba(255, 255, 255, 0.7); 
+                        font-size: 22px; 
+                        text-decoration: none;
+                        border-bottom: 1px dashed rgba(255,255,255,0.3);
+                        padding-bottom: 2px;
+                        transition: 0.3s ease;">
+                   <em> facebook.com/Aceros Car</em>
+                </a>
+                <img src="assets/imgs/mano.png" width="35px" height="35px">
+        </div>
+    </div>
+</div>
+      
+    </div>
+ 
+    <!--<div class="container-fluid bg-dark text-light has-height-md border-top text-center wow fadeIn">
+        <div class="row my-1">
+            <div class="col-sm-4">
+                <h3>CORREO</h3><br>
+                <P class="text-muted" style="font-size: 22px;"><span class="ti-email pr-3"></span>aceroscar@gmail.com</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>TELEFONO</h3><br>
+                <a href="https://wa.me/5564394946" target="_blank" style="color: #25D366; font-size: 25px;">
+                    <img src="assets/imgs/icon_whats.png" width="45px" height="45px">
+                    <span class="ti-whatsapp pr-3">5564394946</span>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <h3>FACEBOOK</h3><br>
+                <P class="text-muted">12345 Fake ST NoWhere AB Country</P>
+            </div>
+        </div>
+    </div>-->
+    <div class="bg-dark text-light text-center border-top wow fadeIn">
+        <p class="mb-0 py-3 text-muted small">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Made with <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com">DevCRUD</a></p>
+    </div>
+    <!-- end of page footer -->
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- wow.js -->
+    <script src="assets/vendors/wow/wow.js"></script>
+    
+    <!-- google maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- FoodHut js -->
+    <script src="assets/js/foodhut.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper(".catalogoSwiper", {
+  slidesPerView: 3,
+  spaceBetween: 20,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    1024: { slidesPerView: 3 },   // 👉 PC
+    768: { slidesPerView: 2 },    // 👉 Tablet
+    0: { slidesPerView: 1 }       // 👉 Celular
+  }
+});
+</script>
+
+
+</body>
+</html>
